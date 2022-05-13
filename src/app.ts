@@ -22,4 +22,4 @@ app.use((err: Error, req: Request, res: Response, _: NextFunction) => {
   });
 });
 
-app.listen(3000);
+app.listen(process.env.PORT || 3000);
